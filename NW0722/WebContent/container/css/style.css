@@ -1,0 +1,204 @@
+@import url('../css/fonts.css');
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+ */
+* {
+	/* font-family: 'Raleway', sans-serif; */
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	/* background: #f4f5f9; */
+}
+
+.carousel {
+	height: 45vh;
+	margin-top: 2rem;
+}
+
+.carousel-item {
+	height: 100%;
+	width: 75%;
+	margin-right: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 5px;
+	/* padding: 2rem 3rem; */
+}
+
+.carousel-item img {
+	width: 100%;
+	height: auto;
+	border: 3px solid gold;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-khtml-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+
+/* 
+.carousel-image {
+	width: 60%;
+} 
+ */
+/* .carousel-item:first-child {
+	background: #090B24;
+}
+
+.carousel-item:nth-child(2) {
+	background: #090B24;
+}
+
+.carousel-item:nth-child(3) {
+	background: #090B24;
+}  */
+
+/* .carousel-info h1 {
+	margin-bottom: 1rem;
+	font-weight: 600;
+	font-size: 2.5rem;
+}
+
+.carousel-info p {
+	line-height: 1.7rem;
+	margin-bottom: 2.5rem;
+}
+
+.carousel-info a {
+	background: #fff;
+	color: #6a6b6d;
+	padding: 1rem 1.3rem;
+	border-radius: 3px;
+} */
+
+/* position outside */
+.carousel .flickity-prev-next-button.previous {
+  left: 210px;
+}
+
+.carousel .flickity-prev-next-button.next {
+  right: 210px;
+}
+
+.popular {
+	padding: 0rem 3.5rem;
+	margin-bottom: 5rem;
+}
+
+.popular h2 {
+	margin: 3rem 0rem;
+	color: #6a6b6d;
+}
+
+.single-item {
+	width: 20%;
+	margin-right: 1rem;
+	background: #fff;
+	border-radius: 5px;
+	color: #6a6b6d;
+}
+
+.single-item .img {
+	height: 230px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.single-item .info {
+	padding: 1rem;
+}
+
+.single-item .info h3{
+	text-align: center;
+	
+}
+.single-item .info p {
+	text-align: center;
+	
+}
+
+.item-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.item-flex i{
+	position: relative;
+	top: 5px;
+	width: 12px;
+}
+
+.price{
+	position:relative;
+	left:50px;
+	
+}
+.price h4{
+	margin-left: 10px;
+	font-size: 1.3rem;
+	
+	/* font-family: sans-serif; */
+}
+
+.deals {
+	background: #090b24;
+	color: #fff;
+	padding: 3.5rem 3rem;
+}
+
+.deals-inner {
+	display: grid;
+	grid-template-columns: 22% 78%;
+	grid-gap: 0rem 2rem;
+}
+
+.timer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 0rem 2rem;
+	text-align: center;
+}
+
+.timer h1 {
+	font-size: 2.3rem;
+	margin-bottom: 1rem;
+}
+
+.timer h3 {
+	font-size: 1.9rem;
+}
+
+.deals-carousel .single-item {
+	width: 25% !important;
+}
+
+.deals-carousel .flickity-prev-next-button.previous {
+  left: -40px;
+}
+
+.deals-carousel .flickity-prev-next-button.next {
+  right: -10px;
+}
+
+.card-brand {
+	padding: 3rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 0rem 3rem;
+}
+
+.single-card {
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.3);
+}

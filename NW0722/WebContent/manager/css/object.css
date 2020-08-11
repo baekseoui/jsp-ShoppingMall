@@ -1,0 +1,198 @@
+@charset "UTF-8";
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    #wrap{
+        margin:auto;
+        width: 1200px;
+        position: relative;
+   	}
+    #header_11{
+        width: 1200px;
+        height: 60px;	
+        line-height: 60px;
+        border-bottom:2px solid #E6D2C9;
+    }
+    #header_11 div{
+        margin-left: 50px;
+    }
+    
+    #header_22{
+        width: 1200px;
+        height: 40px;
+        line-height: 40px;
+        background-color: #f7f9fa;
+        border-bottom:2px solid #E6D2C9;
+    }
+    #header_22 div{
+        margin-left: 50px;
+    }
+
+
+
+    #search{
+        margin-top: 20px;
+        margin-left: 50px;
+        width: 400px;
+        height: 40px;
+    }
+    #search_text{
+        width: 200px;
+        height: 25px;
+    }
+    #search_button{
+        background-color: #CCA594;
+        border: 0.5px solid #5D3D37;
+        width: 50px;
+        height: 25px;
+    }
+    #search_select{
+        width: 100px;
+        height: 25px;
+    }
+
+	
+
+    #container{
+        margin: auto;
+        width: 1100px;
+    }
+    #submit_box{
+        left: 1000px;
+        top: 130px;
+        width: 50px;
+        position: absolute;
+    }
+    #submit_box input{
+        background-color: #CCA594;
+        border: 0.5px solid #5D3D37;
+        width: 50px;
+        height: 25px;
+    }
+    
+      #input_box{
+        left: 888px;
+        top: 130px;
+        width: 110px;
+        height: 25px;
+        position: absolute;
+    }
+    #input_box button{
+        background-color: #CCA594;
+        border: 0.5px solid #5D3D37;
+        width: 50px;
+        height: 25px;
+    }
+
+    #insert{
+        left: 400px;
+        top: 160px;
+        width: 500px;
+        height: 600px;
+        border: 1px solid black;
+        background-color: white;
+        position: absolute;
+        display: none;
+    }
+  
+    #update{
+        left: 400px;
+        top: 160px;
+        width: 500px;
+        height: 600px;
+        border: 1px solid black;
+        background-color: white;
+        position: absolute;
+        display: none;
+    }
+
+    .sql_btn{
+        margin-top: 60px;
+        margin-left: 380px;
+        background-color: #CCA594;
+        border: 0.5px solid #5D3D37;
+        width: 100px;
+        height: 25px;
+    }
+
+    .sql_text{
+        margin-left: 100px;
+        margin-top: 10px;
+        width: 300px;
+        height: 30px;
+    }
+    .exit{
+        margin-left: 480px;
+        width: 20px;
+        height: 20px;
+    }
+    
+
+
+    .productList{
+        width: 1100px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        border: 1px solid #d3d3d3;
+        border-top: 0px;
+        
+    }
+    #productList{
+        margin-left: 50px;
+        border: 1px solid #d3d3d3;
+        background-color: #EFE8E4;
+    }
+    .productList div{
+        border-left: 1px solid #d3d3d3;
+        float: left;
+    }
+  
+    .productList div:nth-child(1){
+        width: 70px;
+        height: 40px
+        }
+    .productList div:nth-child(2){
+        width: 120px;
+        height: 40px;
+    }
+    .productList div:nth-child(3){
+        width: 120px;
+        height: 40px;
+    }
+    .productList div:nth-child(4){
+        width: 120px;
+        height: 40px;
+    }
+    .productList div:nth-child(5){
+        width: 110px;
+        height: 40px;
+    }
+    .productList div:nth-child(6){
+        width: 100px;
+        height: 40px;
+    }
+    .productList div:nth-child(7){
+        width: 100px;
+        height: 40px;
+    }
+    .productList div:nth-child(8){
+        width: 100px;
+        height: 40px;
+    }
+    .productList div:nth-child(9){
+        width: 100px;
+        height: 40px;
+    }
+    .productList div:nth-child(10){
+        width: 100px;
+        height: 40px;
+    }
+    .productList div:nth-child(11){
+        width: 47px;
+        height: 40px;
+    }
+    
+
+

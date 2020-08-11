@@ -1,0 +1,95 @@
+@charset "UTF-8";
+	.wrap_join{
+		width: 555px;
+		margin: 0px auto;
+		padding: 0 10px 60px 10px;
+	}
+	.join_form{
+		width: 535px;
+		height: 35px;
+		margin-top: 20px;
+	}
+	.email{
+		width: 200px;
+		height: 35px;
+		margin-top: 20px;
+	}
+	.join_form:first-child{
+		width: 438px;
+	}
+	.validateIdSubmit{
+		border-color:#007bc8;
+        background-color: #fff;
+        color:black;
+        width:91px;
+        height: 40px;
+        font-size:14px;
+        line-height: 14px;
+        display:inline-block;
+        overflow: hidden;
+        border:1px solid #d9d9d9;
+        text-align: center;
+        cursor: pointer;
+        -webkit-box-sizing:border-box;
+        box-sizing:border-box;
+            -webkit-border-top-left-radius:2px;
+            -webkit-border-top-right-radius:2px;
+            -webkit-border-bottom-left-radius:2px;
+            -webkit-border-botton-right-radius:2px;
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+            border-bottom-left-radius: 2px;
+            border-bottom-right-radius: 2px;
+	}
+	.cont_find{
+		text-align: center;
+	}
+	.cont_find .find_account{
+		position: relative;
+		display: inline-block;
+		margin-top: 24px;
+		font-size: 14px;
+		line-height: 19px;
+		color: #111;	
+	}
+	.find_account .link_find{
+		text-decoration:none;
+		color: #111;
+	}
+	.join_btn{
+		width:539px;
+		height:60px;
+		box-sizing: border-box;
+        background: #DA006B;
+        border: 2px solid #fff;
+        color: #fff;
+        font-size: 18px;
+        outline: none;
+        cursor: pointer;
+        margin: 10px 0;
+	}
+	.wrap_join .sub_title{
+		padding: 0 0 28px 0;
+	    font-size: 24px;
+	    line-height: 24px;
+	    color: #111;
+	    font-weight: 400;
+	    letter-spacing: -1px;
+	}
+	.wrap_join .sub_title.is_line{
+		border-bottom: 1px solid #c5c5c5;
+	}
+	#add_exp{
+		display: inline-block;
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.red_color{
+		color: red;
+		font-style: normal;
+	}
+	#content{
+		width:100%;
+		padding-bottom:80px; 
+		padding-top:70px;
+	}

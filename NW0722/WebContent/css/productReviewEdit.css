@@ -1,0 +1,176 @@
+/*占쎄맒占쎈�뱄옙猷� riview*/
+@charset "UTF-8";
+
+.review{
+	z-index: 1;
+	padding: 60px;
+}
+.review_lst {
+	margin-bottom: 20px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.reviewTitle {
+	font-size: 2.3rem;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.review_lst ul {
+	display: block;
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+}
+
+.review_lst li:first-child {
+	border-top: 1px solid #e5e5e5;
+	width: 900px;
+}
+
+.review_lst li {
+	position: relative;
+	padding: 20px 15px 14px;
+	zoom: 1;
+	border-top: 1px solid #e5e5e5;
+	width: 900px;
+	list-style: none;
+	vertical-align: top;
+}
+
+.review_lst .review_inner {
+	position: relative;
+	padding-left: 93px;
+	min-height: 89px;
+}
+
+.review_lst .review_more {
+	display: block;
+	font-size: 14px;
+	line-height: 20px;
+	zoom: 1;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.review_lst .review_item {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: #767676;
+	font-weight: 400;
+}
+
+.review_lst .review_more {
+	display: block;
+	font-size: 14px;
+	line-height: 20px;
+	zoom: 1;
+}
+
+.review_lst .review_option {
+	margin-bottom: 4px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #767676;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.review_lst .review_title {
+	margin: 4px 0;
+	color: #4d4d4d;
+}
+
+.review_lst .review_title {
+	margin: 4px 0;
+	color: #4d4d4d;
+}
+
+.review_title thumbnail {
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+.review_lst .review_img {
+	position: absolute;
+	top: 3px;
+	left: 0;
+	background: #fff;
+	vertical-align: top;
+}
+
+.review img {
+	display: block;
+	max-width: 760px !important;
+}
+
+.close_btn {
+	display: none;
+}
+
+.review_title view {
+	display: none;
+}
+
+.review_lst .review_info {
+	font-size: 13px;
+	color: #767676;
+}
+
+#review_text, #review_text1, #review_text2, #review_text3, #review_text4
+	{
+	/* display: none; */
+}
+
+.reivew_control {
+	float: right;
+}
+
+#review_btn {
+	border: none;
+	background-color: none;
+}
+
+#review_btn:hover {
+	background-color: #e7e7e7;
+}
+/* 占쎈읂占쎌뵠筌욌벡�뮞占쏙옙占쎌뵬 */
+.pagination {
+	display: inline-block;
+}
+
+.pagination a {
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+.pagination a.active {
+	background-color: #4CAF50;
+	color: white;
+	border-radius: 5px;
+}
+
+.pagination a:hover:not (.active ) {
+	background-color: #ddd;
+	border-radius: 5px;
+}
+.edit_text{
+	width: 85%;
+	height: auto;
+	outline: #767676;
+	border: 1px solid #767676;
+	
+	resize: none;
+}

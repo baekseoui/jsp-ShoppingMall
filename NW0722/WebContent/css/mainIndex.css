@@ -1,0 +1,5 @@
+*{margin: 0; padding: 0;}
+#wrap{min-width: 1180px; margin: 0 auto;}
+#header{position: relative; min-width: 1180px; height:165px; border-bottom: 1px solid #c4c4c4;}
+#contents{position: relative; width: 1180px; min-height: 600px; padding-bottom:40px; padding-top:0px; margin: 0 auto; overflow:hidden;}
+#footer{position: relative;}

@@ -1,0 +1,132 @@
+@charset "UTF-8";
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+    	body{
+    		margin-bottom:20px;
+    	}
+    
+        #wrap{
+            margin: auto;
+            width: 1200px;
+            border: 1px solid lightgray;
+            border-top: 0px;
+        }
+        .clear{
+            clear: both;
+        }
+        a{
+            text-decoration: none;
+        }
+       
+
+
+
+
+        /* header */
+        #heder_wrap{
+            position: relative;
+        }
+
+        #header_1{
+            background-color: black;
+        }
+        #header_content_1{
+            margin: auto;
+            width: 1200px;
+            height: 100px;
+            background-color: black;
+            border: 1px solid transparent;
+        }
+
+        #content1_d1 a{   
+            margin-top: 30px;
+            font-size: 30px;
+            color: white;
+            float: left;
+        }
+        #content1_d2{ 
+            width: 200px;
+            margin-top: 30px;
+            margin-left: 650px;
+            color: white;
+            float: left;
+        }
+        #content1_d2 a{
+            padding-left: 10px;
+            margin-left: 10px;
+            font-size: 13px;
+            color: #a4a2a4;
+            border-left: 1px solid #3c4244;
+            float: left;
+        }
+        #content1_d2 a:first-child{
+            border: 0px;
+        }
+        #content1_d2 a:hover{
+            text-decoration: underline;
+        }
+
+
+
+
+
+        #header_2{
+            background-color: #343a3c;
+      
+        }
+        #header_content_2{
+            margin: auto;
+            width: 1200px;
+            height: 50px;
+            background-color: #343a3c;
+            
+        }
+
+        .content_2_div{
+            width: 150px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            color: white;
+            border-left: 2px solid #343437;
+            float: left;
+        }
+        #left_box{
+            float: left;
+        }
+
+
+
+
+
+
+
+        #chat_check{
+            margin-left: 50px;
+            margin-top: 5px;
+            width: 40px;
+            height: 40px;
+            float: left;
+            cursor:pointer
+        }
+        
+        #chat_check img{
+            width: 100%;
+            height: 100%;
+        }
+
+        #chat_box{
+            top: 200px;
+            left: 700px;
+            width: 300px;
+            height: 400px;
+            background-color: #eeeeee;
+            display: none;
+            position: absolute;
+            z-index: 2;
+        }
+        
+       
+        

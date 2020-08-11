@@ -1,0 +1,38 @@
+@charset "UTF-8";
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    #wrap{
+        margin:auto;
+        width: 1200px;
+        position: relative;
+   	}
+    #header_11{
+        width: 1200px;
+        height: 60px;	
+        line-height: 60px;
+        border-bottom:2px solid #E6D2C9;
+    }
+    #header_11 div{
+        margin-left: 50px;
+    }
+    
+    #header_22{
+        width: 1200px;
+        height: 40px;
+        line-height: 40px;
+        background-color: #f7f9fa;
+        border-bottom:2px solid #E6D2C9;
+    }
+    #header_22 div{
+        margin-left: 50px;
+    }
+	#answer_button input{
+		background-color: #CCA594;
+        border: 0.5px solid #5D3D37;
+        height:25px;
+        width:58px;
+	}
+	
+	

@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+.qnaBoard{
+	max-width:900px;
+	margin:0 auto;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.qnatitle{
+	/*font-family: 'Nanum Gothic Coding', monospace;*/
+}
+
+.totalQna{
+	color:skyblue;
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.searchMenuOption{
+	float:left;
+	width:120px;
+}
+
+.form-control{
+	float:left;
+	max-width:150px;
+}
+
+.searchButton{
+	float:left;
+}
+
+.writeQna{
+	margin:0 5px 0 0;
+	float:right;
+}
+
+.search-bar{
+	margin:25px 0 0 0; 
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.qnaTable{
+	margin:75px 0 0 0;
+	text-align: center; 
+	border: 1px solid #dddddd;
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.menu-filter{
+	width:10px;
+	height:20px;
+	text-align:left;
+	font-size:7pt;
+}
+
+.qna-content{
+	 text-indent: 150px; 
+	 text-align:left;
+}
+
+.pagination{
+	margin:0 0 0 300px; 
+	float:left;
+}
+
+.cnt-Per-Page{
+	margin:0 5px 0 0;
+	float:right;
+	width:80px;
+}
+
+.page-select-scroll{
+	margin:0 10px 0 0; 
+	float:right;
+}
+
+.page-total-cnt{
+	float:right;
+}
+
+.page-scroll-select{
+	width:60px;
+}
+.page_btn{
+	height:38px;
+	margin-top: 20px;
+}
+.item td {
+	cursor: pointer;
+}
+
+.icon-q {
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 0;
+	background: url(../img/board/question.png) no-repeat;
+	background-size: 20px 20px;
+}
+
+.icon-a {
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 0;
+	background: url(../img/board/answer.png) no-repeat;
+	background-size: 20px 20px;
+}
+
+.table .show .q-cus {
+	position: relative;
+	padding: 0 14px 0 24px;
+}
+
+.table .show .a-sel {
+	position: relative;
+	padding: 0 14px 0 24px;
+	margin-top: 24px;
+}
+
+.table.tb_qna tr.show td {
+	padding: 16px;
+	text-align: left;
+	background: #fafafa;
+	color: #5e636d;
+	font-size: 14px;
+	line-height: 22px;
+	border-top: none;
+}
+
+.table .reginfo {
+	padding-left: 24px;
+	padding-top: 4px;
+	color: #15c068;
+	font-size: 0;
+	line-height: 0;
+}
+
+.table .reginfo span {
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.board_qna .date {
+	padding-left: 7px;
+	margin-left: 7px;
+	background-position: -999px -147px;
+}
+
+.qna_head {
+	margin-bottom: 20px;
+}
+.review_control{
+   	float: right;
+}
+.item_img{
+	overflow: hidden;
+}
+.item_img img{
+	width:200px;
+	height: 200px;
+}
+.qnaTable .show {
+	text-align: left; 
+}
+.item_name{
+	text-decoration: none;
+	color: black;
+}
+/* The Modal (background) 
+.black_overlay{
+        display: none;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index:1001;
+        -moz-opacity: 0.8;
+        opacity:.80;
+        filter: alpha(opacity=80);
+    }
+    .white_content {
+        display: none;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        width: 50%;
+        height: 10%;
+        padding: 35px 16px;
+        border: 0;
+        background-color: white;
+        z-index:1002;
+        overflow: auto;
+    }
+#light p{
+	margin-top: 20px;
+}
+#light{
+	text-align: center;
+}
+.light_btn{
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	margin: 0 auto;
+	
+}
+*/

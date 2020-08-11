@@ -1,0 +1,104 @@
+
+    *{
+        margin: 0px;
+        padding: 0px;
+
+    }
+    body, button, input, select, table, textarea {
+        font-family: '나눔고딕','Nanum Barun Gothic','나눔고딕OTF',NanumBarunGothicOTF,'Malgun Gothic',Arial,sans-serif;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    li, ol, ul {
+        list-style: none;
+    }
+    #aside{
+        float: left;
+        width: 190px;
+        margin-left: 105px;
+    }
+    #aside::after{
+    	position: absolute;
+	    top: 0;
+	    left: 295px;
+	    bottom: 0;
+	    width: 1px;
+	    background: #ebebeb;
+	    content: '';
+    }
+    .service_a:link{
+        color: #111;
+        text-decoration: none;
+    }
+    .service_a:visited{
+        color: #111;
+    }
+    .service_a2{
+        color: #111;
+        text-decoration: none;
+    }
+    .service_a2:hover{
+        color: #007bc8;
+    text-decoration: none;
+    }
+    .tit_cs_linkCustomerCenterMain{
+    margin: 42px 0 35px;
+    font-weight: 400;
+    font-size: 34px;
+    color: #111;
+    }
+    .blind, legend {
+    visibility: hidden;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    font-size: 0;
+    line-height: 0;
+}
+.list_snb {
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+.tit_sub{
+    display:block;
+    margin-bottom:8px;
+    font-size:18px;
+    color: #111;
+}
+.list_snb_sub li {
+    font-size: 14px;
+    line-height: 26px;
+    color: #111;
+}
+.list_snb>li {
+    margin-bottom: 39px;
+}
+<!--�굹以묒뿉 �벝吏� �븞�벝吏� 紐⑤쫫 �씪�떒 �븞蹂댁씠寃� 怨좉컼�꽱�꽣 踰덊샇 �떆媛� -->
+.cs_bnr span {
+    display: none;
+    position: relative;
+    border: 1px solid #ebebeb;
+    width: 158px;
+    height: 51px;
+    padding-top: 56px;
+    text-align: center;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+.cs_bnr span:before {
+    position: absolute;
+    top: 14px;
+    left: 63px;
+    display: block;
+    content: '';
+    width: 33px;
+    height: 33px;
+    background: url(https://image.cjmall.net/public/confirm/static/deploy/webjars/ec-markup-common/dist/common-cjmall-pc/others/b51fab0ead323128985d23de13cb5c86/img/common/cjmall/p/img_cs_bnr.gif) no-repeat;
+}
+.cs_bnr span:last-child {
+    border-top: 0 none;
+    height: 88px;
+}

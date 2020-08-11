@@ -1,0 +1,109 @@
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	#id_fine_content{
+		width: 980px;
+		margin: 0px auto;
+	}
+	.wrap_account{
+		width: 500px;
+		margin: 0 auto;
+		padding: 0 15px 0;
+		background-color: #fff;
+	}
+	.blind, legend{
+		visibility: hidden;
+	    overflow: hidden;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 1px;
+	    height: 1px;
+	    font-size: 0;
+	    line-height: 0;
+	}
+	#id_fine_content .sub_title{
+		padding: 0 0 28px;
+	    font-size: 24px;
+	    line-height: 24px;
+	    color: #111;
+	    font-weight: 400;
+	    letter-spacing: -1px;
+	}
+	.wrap_account .sub_title.is_line{
+		border-bottom: 1px solid #c5c5c5;
+	}
+	.cont_find .txt_info:first-child{
+		padding: 37px 0 14px;
+		color: #4d4d4d;
+	}
+	.cont_find .txt_info{
+		min-height: 22px;
+		margin: 0;
+		padding: 15px;
+		padding-left: 0;
+		line-height: 1.4;
+		color: #4d4d4d;
+		font-size: 14px;
+	}
+	.wrap_account .txt_info{
+		display: block;
+	}
+	.input_all{
+	    width: 500px;
+	    height: 45px;
+	    box-sizing: border-box;
+        /*border: 2px solid #fff;
+        border-bottom: 1px solid #111;*/
+        color: #111;
+        font-size: 14px;
+        margin-bottom:8px;
+	}
+	.input_all:first-child{
+		margin-top: 24px;
+	}
+	.input_all::placeholder{
+		color: rgba(0,0,0,0.3);
+	}
+	#check_id{
+		margin: 30px 0px;
+	    width: 500px;
+	    height: 60px;
+	    box-sizing: border-box;
+        background: #DA006B;
+        border: 2px solid #fff;
+        color: #fff;
+        font-size: 18px;
+        outline: none;
+        cursor: pointer;
+	}
+	.cont_find{
+		text-align: center;
+	}
+	.cont_find .find_account{
+		position: relative;
+		display: inline-block;
+		margin-top: 24px;
+		font-size: 14px;
+		line-height: 19px;
+		color: #111;	
+	}
+	.find_account .link_find{
+		text-decoration:none;
+		color: #111;
+	}
+	#add_exp{
+		display: inline-block;
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.red_color{
+		color: red;
+		font-style: normal;
+	}
+	#content{
+		width:100%;
+		padding-bottom:80px; 
+		padding-top:70px;
+	}

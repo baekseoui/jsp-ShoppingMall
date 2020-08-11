@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+#wrap_order{
+	margin-top:100px;
+}
+
+#order_complete_msg p{
+	 color:#007BC8;
+	 font-size:48px;
+	 font-weight:bold;
+}
+
+#order_info_msg{
+	margin-top:50px;
+	font-size:24px;
+	font-weight:bold;
+}
+
+.order_msg_box em{
+	color:#f15278;
+}

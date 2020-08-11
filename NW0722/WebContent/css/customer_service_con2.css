@@ -1,0 +1,315 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li, ol, ul {
+    list-style: none;
+}
+/*body, button, input, select, table, textarea {
+        font-family: '나눔고딕','Nanum Barun Gothic','나눔고딕OTF',NanumBarunGothicOTF,'Malgun Gothic',Arial,sans-serif;
+        font-size: 12px;
+        line-height: 1.5;
+    }*/
+.customer_service_con_main{
+	float:left;
+    width: 750px;
+    margin: 0 auto;
+    line-height: 1.35;
+    font-size: 12px;    
+}
+.blind,legend{
+    visibility: hidden;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    font-size: 0;
+    line-height: 0;
+}
+.box_search{
+    position: relative;
+    width: 668px;
+    height: 33px;
+    margin: 0 0 18px;
+    padding: 0 40px;
+    border: 1px solid #009fd9;
+    border-radius: 20px;
+}
+.tf_search{
+    width: 100%;
+    height: 23px;
+    line-height: 23px;
+    font-size: 13px;
+    padding: 5px 0;
+    border: 0 none;
+    color: #111;
+
+}
+.btn_del_deleteQuery{
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    width: 20px;
+    height: 20px;
+}
+.fld_search{
+    background-color: #fff;
+}
+.ic2_15{
+    overflow: hidden;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(https://image.cjmall.net/public/confirm/static/deploy/webjars/ec-markup-common/dist/page-cjmall-pc/others/7e45ee8bb5d77242a6eec1408615348a/img/common/cjmall/p/sp_bt_x.png);
+    width: 20px;
+    height: 20px;
+    margin-top: 1px;
+    font-size: 0;
+    line-height: 0;
+    background-position: -40px -16px;
+    text-indent: -9999px;
+    vertical-align: top;
+}
+.box_search:after {
+    overflow: hidden;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(https://image.cjmall.net/public/confirm/static/deploy/webjars/ec-markup-common/dist/page-cjmall-pc/others/7e45ee8bb5d77242a6eec1408615348a/img/common/cjmall/p/sp_ico_fn.png);
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    z-index: 10;
+    width: 13px;
+    height: 13px;
+    background-position: -35px -226px;
+    content: "";
+}
+.cs_board_customercenterFAQ{
+    margin-bottom: 48px;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+}
+.tit_board{
+    height: 36px;
+    margin: 0 0 13px -1px;
+    font-size: 18px;
+    line-height: 42px;
+    color: #111;
+}
+.faqTitle{
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    vertical-align: top;
+    display: list-item;
+}
+.num{
+    float: left;
+    width: 20px;
+    margin-right: 7px;
+    font-size: 15px;
+    text-align: center;
+    color: #007bc8;
+}
+.tit_cont{
+    float: left;
+    width: 650px;
+    height: 19px;
+    line-height: 1.35;
+    margin-top: 1px;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #111;
+}
+.ico_arr{
+    display: block;
+    right: 15px;
+    background-position: 0 0;
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-image: url(https://image.cjmall.net/public/confirm/static/deploy/webjars/ec-markup-common/dist/page-cjmall-pc/others/7e45ee8bb5d77242a6eec1408615348a/img/common/cjmall/p/sp_bul.png);
+    position: absolute;
+    top: 50%;
+    width: 15px;
+    height: 8px;
+    margin-top: -4px;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+.cont_faq{
+    display: none;
+    padding: 12px 20px 11px;
+    font-size: 14px;
+    background-color: #fafafa;
+    color: #4d4d4d;
+}
+.list_board li, .list_cs_notice li {
+    border-bottom: 1px solid #f0f0f0;
+}
+.link_cont_faqContents{
+    overflow: hidden;
+    height: 20px;
+    padding: 14px 15px 12px 13px;
+    display: block;
+    position: relative;
+    font-size: 14px;
+    color: #111;
+    text-decoration: none;
+
+}
+.btn_cs_default{
+    display: inline-block;
+    color: #007bc8;
+    border: 1px solid #007bc8;
+    padding: 0 10px;
+    line-height: 23px;
+    font-size: 14px;
+    margin-bottom: 7px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    text-align: center;
+}
+.link_more{
+    top: 5px;
+    right: 0;
+    font-size: 12px;
+    position: absolute;
+    line-height: 38px;
+    color: #767676;
+    letter-spacing: 0;
+    text-decoration: none;
+
+}
+.ic3_07{
+    width: 6px;
+    height: 10px;
+    margin: -2px 0 0 4px;
+    font-size: 0;
+    line-height: 0;
+    background-position: -54px 0;
+    text-indent: -9999px;
+    vertical-align: middle;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+.cs_board_customercenterNotice{
+    margin-bottom: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+
+}
+#content{
+	width: 980px;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+#contents:after{
+	display: block;
+	clear: both;
+	content: ' ';
+}
+#aside+#content{
+	float: left;
+    width: 750px;
+    min-height: 550px;
+    padding-left: 30px;
+}
+#aside{
+        float: left;
+        width: 190px;
+        margin-left: 105px;
+    }
+    /*#aside::after{
+    	position: absolute;
+	    top: 0;
+	    left: 295px;
+	    bottom: 0;
+	    width: 1px;
+	    background: #ebebeb;
+	    content: '';
+    }*/
+    .service_a:link{
+        color: #111;
+        text-decoration: none;
+    }
+    .service_a:visited{
+        color: #111;
+    }
+    .service_a2{
+        color: #111;
+        text-decoration: none;
+    }
+    .service_a2:hover{
+        color: #007bc8;
+    text-decoration: none;
+    }
+    .tit_cs_linkCustomerCenterMain{
+    margin: 42px 0 35px;
+    font-weight: 400;
+    font-size: 34px;
+    color: #111;
+    }
+    .blind, legend {
+    visibility: hidden;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    font-size: 0;
+    line-height: 0;
+}
+.list_snb {
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+.tit_sub{
+    display:block;
+    margin-bottom:8px;
+    font-size:18px;
+    color: #111;
+}
+.list_snb_sub li {
+    font-size: 14px;
+    line-height: 26px;
+    color: #111;
+}
+.list_snb>li {
+    margin-bottom: 39px;
+}
+<!--�굹以묒뿉 �벝吏� �븞�벝吏� 紐⑤쫫 �씪�떒 �븞蹂댁씠寃� 怨좉컼�꽱�꽣 踰덊샇 �떆媛� -->
+.cs_bnr span {
+    display: none;
+    position: relative;
+    border: 1px solid #ebebeb;
+    width: 158px;
+    height: 51px;
+    padding-top: 56px;
+    text-align: center;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+.cs_bnr span:before {
+    position: absolute;
+    top: 14px;
+    left: 63px;
+    display: block;
+    content: '';
+    width: 33px;
+    height: 33px;
+    background: url(https://image.cjmall.net/public/confirm/static/deploy/webjars/ec-markup-common/dist/common-cjmall-pc/others/b51fab0ead323128985d23de13cb5c86/img/common/cjmall/p/img_cs_bnr.gif) no-repeat;
+}
+.cs_bnr span:last-child {
+    border-top: 0 none;
+    height: 88px;
+}

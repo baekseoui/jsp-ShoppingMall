@@ -1,0 +1,202 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.board_qna {
+	clear: both;
+	position: relative;
+	padding-top: 15px;
+	width: 750px;
+}
+
+.board_qna .tb_board {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	border-top: 1px solid #a4a9b0;
+	border-bottom: 1px solid #ececec;
+}
+
+.tb_board thead th {
+	padding: 13px 0;
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+	color: #222;
+	background: #f8f9fa;
+}
+
+.tb_board td {
+	padding: 16px 0 16px 12px;
+	border-top: 1px solid #ececec;
+	font-size: 14px;
+	line-height: 14px;
+	text-align: left;
+	color: #5e636d;
+} 
+
+.tb_board.tb_qna tr.item td:nth-child(1),td:nth-child(2),td:nth-child(3) {
+	text-align: center;
+	padding-left: 0;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: table-row;
+}
+
+.item td {
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.icon-q {
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 0;
+	background: url(../img/board/question.png) no-repeat;
+	background-size: 20px 20px;
+}
+
+.icon-a {
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 0;
+	background: url(../img/board/answer.png) no-repeat;
+	background-size: 20px 20px;
+}
+
+.tb_board .show .q-cus {
+	position: relative;
+	padding: 0 14px 0 24px;
+}
+
+.tb_board .show .a-sel {
+	position: relative;
+	padding: 0 14px 0 24px;
+	margin-top: 24px;
+}
+
+.tb_board.tb_qna tr.show td {
+	padding: 16px;
+	text-align: left;
+	background: #fafafa;
+	color: #5e636d;
+	font-size: 14px;
+	line-height: 22px;
+	border-top: none;
+}
+
+.tb_board .reginfo {
+	padding-left: 24px;
+	padding-top: 4px;
+	color: #15c068;
+	font-size: 0;
+	line-height: 0;
+}
+
+.tb_board .reginfo span {
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.board_qna .date {
+	padding-left: 7px;
+	margin-left: 7px;
+	background-position: -999px -147px;
+}
+
+.qna_head {
+	margin-bottom: 20px;
+}
+
+.pagination {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.pagination li{
+	display: inline-block;
+	margin-top: 10px;
+}
+.pagination a {
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+.pagination a.active {
+	background-color: #4CAF50;
+	color: white;
+	border-radius: 5px;
+}
+
+.pagination a:hover:not (.active ) {
+	background-color: #ddd;
+	border-radius: 5px;
+}
+.review_control{
+   	float: right;
+}
+.item_img{
+	overflow: hidden;
+}
+.item_img img{
+	width:100%;
+	height: 100%;
+}
+
+/* The Modal (background) */
+.black_overlay{
+        display: none;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index:1001;
+        -moz-opacity: 0.8;
+        opacity:.80;
+        filter: alpha(opacity=80);
+    }
+    .white_content {
+        display: none;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        width: 50%;
+        height: 10%;
+        padding: 35px 16px;
+        border: 0;
+        background-color: white;
+        z-index:1002;
+        overflow: auto;
+    }
+#light p{
+	margin-top: 20px;
+}
+#light{
+	text-align: center;
+}
+.light_btn{
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	margin: 0 auto;
+	
+}

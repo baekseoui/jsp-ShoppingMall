@@ -1,0 +1,233 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+img, li {
+vertical-align: top;
+}
+body, button, input, select, table, textarea {
+font-family: '나눔바른고딕','Nanum Barun Gothic','나눔바른고딕OTF',NanumBarunGothicOTF,'Malgun Gothic',Arial,sans-serif;
+font-size: 12px;
+line-height: 1.5;
+}
+a {
+color: inherit;
+text-decoration: none;
+}
+li, ol, ul {
+list-style: none;
+}
+.content{
+    float: left;
+    width: 750px;
+    margin: 0 0 0 30px;
+}
+.cs_sub{
+    width: 750px;
+    margin: 0 auto;
+    line-height: 1.35;
+    overflow: hidden;
+}
+fieldset, img {
+    border: 0;
+}
+.fld_search{
+    background-color: #fff;
+}
+.blind, legend {
+    visibility: hidden;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    font-size: 0;
+    line-height: 0;
+}
+#content .sub_title {
+padding: 0 0 28px;
+font-size: 24px;
+line-height: 24px;
+color: #111;
+font-weight: 400;
+letter-spacing: -1px;
+}
+.box_search {
+position: relative;
+width: 668px;
+height: 33px;
+margin: 0 0 18px;
+padding: 0 40px;
+border: 1px solid #009fd9;
+border-radius: 20px;
+}
+.box_search .tf_search {
+width: 100%;
+height: 23px;
+line-height: 23px;
+font-size: 13px;
+padding: 5px 0;
+border: 0 none;
+color: #111;
+}
+.box_search .btn_del {
+position: absolute;
+top: 7px;
+right: 8px;
+width: 20px;
+height: 20px;
+}
+.box_search .btn_del .ic2_15 {
+overflow: hidden;
+display: inline-block;
+background-repeat: no-repeat;
+background-image: url(https://image.cjmall.net/public/confirm/static/deploy/webjars/ec-markup-common/dist/page-cjmall-pc/others/8992ed35e5b0b160808583365d750075/img/common/cjmall/p/sp_bt_x.png);
+width: 20px;
+height: 20px;
+margin-top: 1px;
+font-size: 0;
+line-height: 0;
+background-position: -40px -16px;
+text-indent: -9999px;
+vertical-align: top;
+}
+.box_search:after {
+overflow: hidden;
+display: inline-block;
+background-repeat: no-repeat;
+background-image: url(https://image.cjmall.net/public/confirm/static/deploy/webjars/ec-markup-common/dist/page-cjmall-pc/others/8992ed35e5b0b160808583365d750075/img/common/cjmall/p/sp_ico_fn.png);
+position: absolute;
+top: 10px;
+left: 14px;
+z-index: 10;
+width: 13px;
+height: 13px;
+background-position: -35px -226px;
+content: "";
+}
+.cs_board {
+overflow: hidden;
+position: relative;
+background-color: #fff;
+}
+.list_board_sort {
+border-right: 1px solid #d1d1d1;
+border-bottom: 1px solid #d1d1d1;
+font-size: 0;
+line-height: 0;
+}
+.list_board_sort li {
+display: inline-block;
+position: relative;
+width: 33.3333%;
+height: 46px;
+}
+.list_board_sort .on .link_tab {
+position: absolute;
+top: 0;
+left: 0;
+z-index: 10;
+padding-bottom: 13px;
+border-color: #007bc8;
+background-color: #007bc8;
+color: #fff;
+}
+.list_board_sort .link_tab {
+display: block;
+width: 100%;
+height: 20px;
+padding: 13px 0 12px;
+border: 1px solid #d1d1d1;
+border-right: 0 none;
+border-bottom: 0 none;
+font-size: 15px;
+line-height: 1.35;
+text-align: center;
+}
+
+.list_board_sort li {
+display: inline-block;
+position: relative;
+width: 33.3333%;
+height: 46px;
+}
+
+.cs_layer, .cs_main, .cs_sub {
+line-height: 1.35;
+}
+/* 여기까지 자주하는 질문6가지  css */
+.faq_keyword {
+margin: 40px 0 0;
+width: 100%;
+height: 18px;
+padding: 12px 15px 8px;
+font-size: 13px;
+background-color: #f2f5f8;
+color: #111;
+margin-bottom: 14px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+.list_board li, .list_cs_notice li {
+border-bottom: 1px solid #f0f0f0;
+}
+.list_board .link_cont, .list_cs_notice .link_cont {
+display: block;
+position: relative;
+padding: 13px 67px 11px 15px;
+font-size: 14px;
+color: #111;
+}
+.list_board .link_cont .tit_cont2, .list_cs_notice .link_cont .tit_cont2 {
+display: block;
+overflow: hidden;
+font-weight: 400;
+line-height: 1.4;
+}
+.faq_keyword .txt_keyword {
+color: #0071C8;
+}
+.list_board .ico_arr, .list_cs_notice .ico_arr {
+overflow: hidden;
+display: inline-block;
+background-repeat: no-repeat;
+background-image: url(https://image.cjmall.net/public/confirm/static/deploy/webjars/ec-markup-common/dist/page-cjmall-pc/others/8992ed35e5b0b160808583365d750075/img/common/cjmall/p/sp_bul.png);
+position: absolute;
+top: 50%;
+right: 15px;
+width: 15px;
+height: 8px;
+margin-top: -4px;
+font-size: 0;
+line-height: 0;
+background-position: 0 0;
+text-indent: -9999px;
+}
+.cs_main .list_board .cont_board .btn_cs_default, .cs_main .list_cs_notice .cont_board .btn_cs_default, .list_board .cont_faq .btn_cs_default, .list_cs_notice .cont_faq .btn_cs_default {
+display: inline-block;
+color: #007bc8;
+border: 1px solid #007bc8;
+padding: 0 10px;
+line-height: 23px;
+font-size: 14px;
+margin-bottom: 7px;
+-webkit-border-top-left-radius: 2px;
+-webkit-border-top-right-radius: 2px;
+-webkit-border-bottom-left-radius: 2px;
+-webkit-border-bottom-right-radius: 2px;
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+border-bottom-left-radius: 2px;
+border-bottom-right-radius: 2px;
+}
+
+/* 제이쿼리 열고 닫기 클릭 이벤트 추가할거 */
+.cs_main .list_board .cont_board, .cs_main .list_cs_notice .cont_board, .list_board .cont_faq, .list_cs_notice .cont_faq {
+display: none;
+padding: 12px 20px 11px;
+font-size: 14px;
+background-color: #fafafa;
+color: #4d4d4d;
+}
